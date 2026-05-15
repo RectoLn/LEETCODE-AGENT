@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+.npm-cache/
+
+# build outputs
+dist/
+
+# local secrets and auth
+.env
+.env.*
+leetcode.local.json
+reminder.local.json
+
+# logs
+*.log
+server.out.log
+server.err.log
+client.out.log
+client.err.log
+
+# local review screenshots
+frontend-*.png
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
